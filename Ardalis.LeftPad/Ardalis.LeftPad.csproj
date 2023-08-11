@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	  <PackageId>Ardalis.LeftPad</PackageId>
+	  <Title>Ardalis.LeftPad</Title>
+	  <PackageLicenseFile>LICENSE</PackageLicenseFile>
+	  <Authors>Steve Smith (@ardalis)</Authors>
+	  <Company>Ardalis.com</Company>
+	  <PackageProjectUrl>https://github.com/ardalis/leftpad</PackageProjectUrl>
+	  <Description>A sample NuGet package. Not for actual use.</Description>
+	  <Summary>A sample NuGet package. Not for actual use.</Summary>
+	  <RepositoryUrl>https://github.com/ardalis/leftpad</RepositoryUrl>
+	  <PackageTags></PackageTags>
+  </PropertyGroup>
+	<ItemGroup>
+		<None Include="..\..\LICENSE" Pack="true" PackagePath="" />
+	</ItemGroup>
+</Project>
