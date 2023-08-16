@@ -47,6 +47,8 @@ From the CLI:
 dotnet pack -c Release
 ```
 
+You can add `-o [path]` to control where the output goes. For instance, `-o .` will output the nupkg file in the current directory.
+
 Publish to your LocalNuGet folder (either may work):
 
 ```bash
