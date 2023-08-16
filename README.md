@@ -65,4 +65,6 @@ dotnet nuget push .\Ardalis.LeftPad.1.1.0.nupkg -s c:\LocalNuget\Ardalis.LeftPad
 
 It won't use subfolders otherwise, even if they already exist.
 
+## What about different package sources per solution?
 
+You can do this with a `nuget.config` file. [See here.](https://stackoverflow.com/questions/33831689/is-there-a-way-to-make-nuget-package-source-settings-per-solution)
