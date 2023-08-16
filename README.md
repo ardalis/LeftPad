@@ -52,7 +52,8 @@ You can add `-o [path]` to control where the output goes. For instance, `-o .` w
 Publish to your LocalNuGet folder (either may work):
 
 ```bash
-dotnet nuget push -o c:\LocalNuget
+dotnet nuget push .\Ardalis.LeftPad.1.1.0.nupkg -s c:\LocalNuget
+OR
 dotnet nuget add New.Package.1.0.0.nupkg -source LocalNuget
 ```
 
