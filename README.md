@@ -53,9 +53,16 @@ Publish to your LocalNuGet folder (either may work):
 
 ```bash
 dotnet nuget push .\Ardalis.LeftPad.1.1.0.nupkg -s c:\LocalNuget
-OR
-dotnet nuget add New.Package.1.0.0.nupkg -source LocalNuget
 ```
 
 Note that your local package source should use a hierarchical folder structure. [See local feeds docs](https://learn.microsoft.com/en-us/nuget/hosting-packages/local-feeds) for more info and utilities to create the structure.
+
+If you're using the CLI command above, you can specify the subfolder as part of the feed:
+
+```bash
+dotnet nuget push .\Ardalis.LeftPad.1.1.0.nupkg -s c:\LocalNuget\Ardalis.LeftPad
+```
+
+It won't use subfolders otherwise, even if they already exist.
+
 
